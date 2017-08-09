@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PeerModule_Tests' do
+  pod 'PeerModule', :path => '../'
+  
+  
+end
