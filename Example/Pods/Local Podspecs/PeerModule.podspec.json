@@ -1,0 +1,22 @@
+{
+  "name": "PeerModule",
+  "version": "0.1.0",
+  "summary": "A short description of PeerModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Thibault Tourailles/PeerModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Thibault Tourailles": "thibault.tourailles@applidium.com"
+  },
+  "source": {
+    "git": "https://github.com/Thibault Tourailles/PeerModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PeerModule/Classes/**/*"
+}

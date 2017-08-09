@@ -18,9 +18,9 @@
 		607FACE51AFB9204008FA782 /* PeerModule_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeerModule_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A5C8C9A05D0070A849794E7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BDA93295AD2BED79C181E35A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E5622BD76470E00422E7F0A6 /* PeerModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PeerModule.podspec; path = ../PeerModule.podspec; sourceTree = "<group>"; };
+		A5C8C9A05D0070A849794E7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BDA93295AD2BED79C181E35A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E5622BD76470E00422E7F0A6 /* PeerModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PeerModule.podspec; path = ../PeerModule.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,12 +131,9 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = U5M7X5V6ZG;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -321,6 +318,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 29C450C68DF381C1021B7D62 /* Pods-PeerModule_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = U5M7X5V6ZG;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -341,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E10133782EB93B181B3B4A4 /* Pods-PeerModule_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = U5M7X5V6ZG;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

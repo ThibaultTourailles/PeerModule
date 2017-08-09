@@ -9,28 +9,24 @@
 Pod::Spec.new do |s|
   s.name             = 'PeerModule'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PeerModule.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'A small module to create a peer network.'
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Thibault Tourailles/PeerModule'
+  s.homepage         = 'https://github.com/ThibaultTourailles/PeerModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Thibault Tourailles' => 'thibault.tourailles@applidium.com' }
-  s.source           = { :git => 'https://github.com/Thibault Tourailles/PeerModule.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ThibaultTourailles/PeerModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'PeerModule/Classes/**/*'
+
+  s.dependency 'BlueSocket', '~> 0.12'
   
   # s.resource_bundles = {
   #   'PeerModule' => ['PeerModule/Assets/*.png']

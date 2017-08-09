@@ -1,0 +1,6 @@
+framework module PeerModule {
+  umbrella header "PeerModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

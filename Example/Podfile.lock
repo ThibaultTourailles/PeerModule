@@ -1,0 +1,16 @@
+PODS:
+  - PeerModule (0.1.0)
+
+DEPENDENCIES:
+  - PeerModule (from `../`)
+
+EXTERNAL SOURCES:
+  PeerModule:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PeerModule: 00918a230dc2de4352867b6ab2802faa8baed166
+
+PODFILE CHECKSUM: 0dee90da7da026563d283125960418454294da4d
+
+COCOAPODS: 1.2.1
