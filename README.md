@@ -1,6 +1,6 @@
 # PeerModule
 
-[![CI Status](http://img.shields.io/travis/Thibault Tourailles/PeerModule.svg?style=flat)](https://travis-ci.org/Thibault Tourailles/PeerModule)
+[![CI Status](http://img.shields.io/travis/ThibaultTourailles/PeerModule.svg?style=flat)](https://travis-ci.org/ThibaultTourailles/PeerModule)
 [![Version](https://img.shields.io/cocoapods/v/PeerModule.svg?style=flat)](http://cocoapods.org/pods/PeerModule)
 [![License](https://img.shields.io/cocoapods/l/PeerModule.svg?style=flat)](http://cocoapods.org/pods/PeerModule)
 [![Platform](https://img.shields.io/cocoapods/p/PeerModule.svg?style=flat)](http://cocoapods.org/pods/PeerModule)
